@@ -1,8 +1,8 @@
 {
     "name": "Huginn",
     "description": "Build agents that monitor and act on your behalf.  Your agents are standing by!",
-    "website": "https://github.com/huginn/huginn",
-    "repository": "https://github.com/huginn/huginn",
+    "website": "https://github.com/theseaeagle/huginn",
+    "repository": "https://github.com/theseaeagle/huginn",
     "logo": "https://raw.githubusercontent.com/huginn/huginn/master/media/huginn-icon-64.png",
     "env": {
         "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-multi.git",
