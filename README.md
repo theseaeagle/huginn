@@ -6,7 +6,7 @@
 
 Huginn is a system for building agents that perform automated tasks for you online.  They can read the web, watch for events, and take actions on your behalf.  Huginn's Agents create and consume events, propagating them along a directed graph.  Think of it as a hackable version of IFTTT or Zapier on your own server.  You always know who has your data.  You do.
 
-![the origin of the name](https://raw.githubusercontent.com/huginn/huginn/master/doc/imgs/the-name.png)
+![the origin of the name](https://raw.githubusercontent.com/theseaeagle/huginn/master/doc/imgs/the-name.png)
 
 #### Here are some of the things that you can do with Huginn:
 
@@ -29,7 +29,7 @@ Join us in our [Gitter room](https://gitter.im/huginn/huginn) to discuss the pro
 
 ### Join us!
 
-Want to help with Huginn?  All contributions are encouraged!  You could make UI improvements, [add new Agents](https://github.com/huginn/huginn/wiki/Creating-a-new-agent), write [documentation and tutorials](https://github.com/huginn/huginn/wiki), or try tackling [issues tagged with #"help wanted"](https://github.com/huginn/huginn/issues?direction=desc&labels=help+wanted&page=1&sort=created&state=open).  Please fork, add specs, and send pull requests!
+Want to help with Huginn?  All contributions are encouraged!  You could make UI improvements, [add new Agents](https://github.com/theseaeagle/huginn/wiki/Creating-a-new-agent), write [documentation and tutorials](https://github.com/theseaeagle/huginn/wiki), or try tackling [issues tagged with #"help wanted"](https://github.com/theseaeagle/huginn/issues?direction=desc&labels=help+wanted&page=1&sort=created&state=open).  Please fork, add specs, and send pull requests!
 
 Really want a fix or feature? Want to solve some community issues and earn some extra coffee money? Take a look at the [current bounties on Bountysource](https://www.bountysource.com/trackers/282580-huginn).
 
@@ -41,21 +41,21 @@ Please checkout the [Huginn Introductory Screencast](http://vimeo.com/61976251)!
 
 And now, some example screenshots.  Below them are instructions to get you started.
 
-![Example list of agents](https://raw.githubusercontent.com/huginn/huginn/master/doc/imgs/your-agents.png)
+![Example list of agents](https://raw.githubusercontent.com/theseaeagle/huginn/master/doc/imgs/your-agents.png)
 
-![Event flow diagram](https://raw.githubusercontent.com/huginn/huginn/master/doc/imgs/diagram.png)
+![Event flow diagram](https://raw.githubusercontent.com/theseaeagle/huginn/master/doc/imgs/diagram.png)
 
-![Detecting peaks in Twitter](https://raw.githubusercontent.com/huginn/huginn/master/doc/imgs/peaks.png)
+![Detecting peaks in Twitter](https://raw.githubusercontent.com/theseaeagle/huginn/master/doc/imgs/peaks.png)
 
-![Logging your location over time](https://raw.githubusercontent.com/huginn/huginn/master/doc/imgs/my-locations.png)
+![Logging your location over time](https://raw.githubusercontent.com/theseaeagle/huginn/master/doc/imgs/my-locations.png)
 
-![Making a new agent](https://raw.githubusercontent.com/huginn/huginn/master/doc/imgs/new-agent.png)
+![Making a new agent](https://raw.githubusercontent.com/theseaeagle/huginn/master/doc/imgs/new-agent.png)
 
 ## Getting Started
 
 ### Docker
 
-The quickest and easiest way to check out Huginn is to use the official Docker image. Have a look at the [documentation](https://github.com/huginn/huginn/blob/master/doc/docker/install.md).
+The quickest and easiest way to check out Huginn is to use the official Docker image. Have a look at the [documentation](https://github.com/theseaeagle/huginn/blob/master/doc/docker/install.md).
 
 ### Local Installation
 
@@ -102,13 +102,13 @@ Our general intention is to encourage complex and specific Agents to be written 
 
 ## Deployment
 
-Please see [the Huginn Wiki](https://github.com/huginn/huginn/wiki#deploying-huginn) for detailed deployment strategies for different providers.
+Please see [the Huginn Wiki](https://github.com/theseaeagle/huginn/wiki#deploying-huginn) for detailed deployment strategies for different providers.
 
 ### Heroku
 
-Try Huginn on Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) (Takes a few minutes to setup. Read the [documentation](https://github.com/huginn/huginn/blob/master/doc/heroku/install.md) while you are waiting and be sure to click 'View it' after launch!)
+Try Huginn on Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) (Takes a few minutes to setup. Read the [documentation](https://github.com/theseaeagle/huginn/blob/master/doc/heroku/install.md) while you are waiting and be sure to click 'View it' after launch!)
 
-Huginn launches on the free version of Heroku [with significant limitations](https://github.com/huginn/huginn/blob/master/doc/heroku/install.md). For non-experimental use, we strongly recommend Heroku's 1GB paid plan or our Docker container.
+Huginn launches on the free version of Heroku [with significant limitations](https://github.com/theseaeagle/huginn/blob/master/doc/heroku/install.md). For non-experimental use, we strongly recommend Heroku's 1GB paid plan or our Docker container.
 
 ### OpenShift
 
@@ -118,11 +118,11 @@ Try Huginn on OpenShift Online
 
 Create a new app with either `mysql` or `postgres`:
 ```bash
-oc new-app -f https://raw.githubusercontent.com/huginn/huginn/master/openshift/templates/huginn-mysql.json
+oc new-app -f https://raw.githubusercontent.com/theseaeagle/huginn/master/openshift/templates/huginn-mysql.json
 ```
 or
 ```bash
-oc new-app -f https://raw.githubusercontent.com/huginn/huginn/master/openshift/templates/huginn-postgresql.json
+oc new-app -f https://raw.githubusercontent.com/theseaeagle/huginn/master/openshift/templates/huginn-postgresql.json
 ```
 **Note**: You can also use the web console to import either json file by going to "Add to Project" -> "Import YAML/JSON".
 
@@ -132,13 +132,13 @@ The templates should work on a v3 installation or the current v4 online.
 
 ### Manual installation on any server
 
-Have a look at the [installation guide](https://github.com/huginn/huginn/blob/master/doc/manual/README.md).
+Have a look at the [installation guide](https://github.com/theseaeagle/huginn/blob/master/doc/manual/README.md).
 
 ### Optional Setup
 
 #### Setup for private development
 
-See [private development instructions](https://github.com/huginn/huginn/wiki/Private-development-instructions) on the wiki.
+See [private development instructions](https://github.com/theseaeagle/huginn/wiki/Private-development-instructions) on the wiki.
 
 #### Enable the WeatherAgent
 
